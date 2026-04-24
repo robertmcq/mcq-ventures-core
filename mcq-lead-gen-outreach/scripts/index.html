@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"></head>
+<body>
+<script>
+window['ai_edge_gallery_get_result'] = async function(data, secret) {
+  try {
+    const d = JSON.parse(data);
+    const firstName = d.firstName || '';
+    const lastName = d.lastName || '';
+    const title = d.title || '';
+    const company = d.company || '';
+    const industry = d.industry || '';
+    const recentNews = d.recentNews || '';
+    const senderName = d.senderName || 'Robert Millhouse';
+    const context = recentNews ? recentNews : company + ' operates in the ' + industry + ' sector and faces escalating AI governance and compliance scrutiny.';
+    const subject = 'AI Governance Readiness for ' + company + ' — M.CQ Ventures';
+    const email = 'Hi ' + firstName + ',\n\nI came across ' + company + ' and noted: ' + context + '\n\nAt M.CQ Ventures, we help ' + industry + ' firms close the gap between where their AI workflows are today and where regulators and clients expect them to be tomorrow — through practical AI governance audits, workflow readiness assessments, and targeted automation built around your firm\'s specific risk profile.\n\nGiven your role as ' + title + ', you\'re likely fielding more questions about AI oversight than your current infrastructure is designed to answer. I\'d love to share a 15-minute overview of how we\'ve helped comparable firms build that answer with confidence.\n\nWould a quick call this week work?\n\nWarm regards,\n' + senderName + '\nM.CQ Ventures\nmcqventures.com';
+    const linkedin = 'Hi ' + firstName + ' — I noted: ' + context + ' M.CQ Ventures works with ' + industry + ' firms on AI governance readiness and workflow automation. Would love to connect and share a framework relevant for your position. Open to a brief call this week?';
+    const webviewUrl = 'webview.html?name=' + encodeURIComponent(firstName + ' ' + lastName) + '&company=' + encodeURIComponent(company) + '&title=' + encodeURIComponent(title) + '&subject=' + encodeURIComponent(subject) + '&email=' + encodeURIComponent(email) + '&linkedin=' + encodeURIComponent(linkedin);
+    return JSON.stringify({ result: 'Outreach package generated for ' + firstName + ' ' + lastName + ' at ' + company + '.', webview: { url: webviewUrl, aspectRatio: 1.6 } });
+  } catch(e) {
+    return JSON.stringify({ error: 'M.CQ Skill Error: ' + e.message });
+  }
+};
+</script>
+</body>
+</html>
