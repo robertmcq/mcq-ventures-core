@@ -1,5 +1,5 @@
 # M.CQ Ventures — Product Marketing Context
-Version: 1.1 | Last Updated: 2026-05-03
+Version: 1.2 | Last Updated: 2026-05-03
 Owner: Robert Millhouse, Founder & CEO
 Status: LOCKED — Commit to main before first agent session
 
@@ -11,11 +11,10 @@ Pre-revenue. Infrastructure build complete as of 2026-05-03.
 First 3 clients are the immediate milestone.
 Introductory engagement pricing available for proof-of-concept
 clients.
-No published pricing — all engagements open with a 15-minute
-discovery call.
-Agents must NEVER publish, quote, or reference a price point
-in outbound communication. Price is spoken on the discovery
-call only.
+Pricing is published on the site. Agents MAY reference published
+fees in sales and marketing copy. Price is NOT quoted in cold
+outbound email — all cold outreach drives to the 15-minute
+discovery call first. Stripe link delivered post-call only.
 
 ---
 
@@ -57,7 +56,7 @@ Infrastructure:
 ## Core Product
 
 GRID Control™ Assessment
-- Price: Confirmed on discovery call only. Not published.
+- Price: $2,997 fixed fee, 100% upfront, 48-hour delivery.
 - Format: 90-minute fixed-fee diagnostic engagement
 - Deliverable: Documented AI governance map — identifies where
   undocumented AI use creates exposure across governance, risk,
@@ -70,6 +69,23 @@ GRID Control™ Assessment
 - Stripe: https://buy.stripe.com/dRmaEZ2Rq9VogXL20G9fW04
   (Stripe link is sent AFTER discovery call confirms fit —
   never in cold outreach)
+
+---
+
+## Pricing
+
+Lane 02 — GRID Control™ Assessment: $2,997 fixed, 100% upfront, 48-hr delivery
+Lane 01 — Agent Creation: $15,000 / $25,000 / $37,500+ (10% initiation fee)
+Lane 03 — Management Control: $3,500–$6,000/month, 90-day minimum
+Lane 04 — ISO 42001 Certification: $37,497 Year 1
+
+Primary conversion action: Lane 02 Assessment or Free Diagnostic
+Standard entry point: Lane 02 — prerequisite for all downstream engagements
+Highest-value engagement: Lane 04 — closes E&O carrier, AmLaw procurement,
+  and M&A diligence exposure vectors simultaneously
+
+Cold outreach CTA: 15-minute discovery call (never quote fees in cold email)
+Post-call CTA: Stripe checkout link after fit confirmed
 
 ---
 
