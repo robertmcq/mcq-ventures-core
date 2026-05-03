@@ -148,7 +148,7 @@ SECONDARY: Cold email outbound
 - Regulatory anchor: ABA 512 + D.C. Bar Opinion 388
 - CTA in cold email: 15-minute discovery call (calendar link)
 - Stripe link is NEVER the CTA in cold outreach
-- Current active sequence: Tier 3 — 50 firms, Monday May 5
+- Current active sequence: Tier 3 — 50 firms, Monday May 4
   launch, MCQ_Target_Firms_Q2_2026_v2.xlsx
 
 TERTIARY: Automated outreach pipeline (Partner OS — in build)
